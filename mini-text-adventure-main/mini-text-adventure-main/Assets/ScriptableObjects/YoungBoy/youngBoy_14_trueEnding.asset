@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: youngBoy_14_trueEnding
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: youngBoy_14_trueEnding
+  SpeakerName: 'True Ending: A Proper Magic Show'
+  DialogueText: You clasp your hands together with a golden light seeping through
+    your fingers, before thrusting them upward and outward, sending the coins flying.
+    You then cross your arms back up, with icicles piercing through each of the coins.
+    Finally, you bring your hands back down and the icicles rapidly explode one-by-one.
+    The boy cheers, and you're both impressed by the magnificent display.
+  Choices:
+  - ChoiceText: '[Play Again]'
+    NextNodeId: 
+    ReloadScene: 1
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: wStudent_05_friendReply
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: wStudent_05_friendReply
+  SpeakerName: Carefree Student
+  DialogueText: '"I, uh... I got side-tracked. Sorry. But hey, at least I have the
+    reagents we need"'
+  Choices:
+  - ChoiceText: '[...]'
+    NextNodeId: wStudent_06_questReward
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []

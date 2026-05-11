@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e649038d9e1dfc249a980e57c5b5a9b6, type: 3}
+  m_Name: VillageDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueDatabase
+  Nodes:
+  - {fileID: 11400000, guid: 60784178b151de94ca7e00b3bc4d81af, type: 2}
+  - {fileID: 11400000, guid: 9c65407cbb55510438f1f1f6398dd5be, type: 2}
+  - {fileID: 11400000, guid: ca983b22c6898734cb6ccdf7b23ccd12, type: 2}
+  - {fileID: 11400000, guid: f397d561dca34fe4c93111c40ea82303, type: 2}
+  - {fileID: 11400000, guid: b439f278012db454d94ba6a79a1469d1, type: 2}
+  - {fileID: 11400000, guid: 8d94f7115b567fd418c88ef800346eac, type: 2}
+  - {fileID: 11400000, guid: e830eb89134798542a8dc1d892f1c9c5, type: 2}
+  - {fileID: 11400000, guid: 25e03ec0914c29f49bd3060ffc82aaa7, type: 2}
+  - {fileID: 11400000, guid: 299d602a01b384540ad97140c8453ba2, type: 2}
+  - {fileID: 11400000, guid: 582e13a9b0c649048bac162f0171c5bc, type: 2}
+  - {fileID: 11400000, guid: c590e541e6e17cb4aa8bc506b3abad5b, type: 2}
+  - {fileID: 11400000, guid: 9abe803a57ed8684fa0e8fa10587ab87, type: 2}
+  - {fileID: 11400000, guid: ee36e45a93e75e24aacc698fa78ecd19, type: 2}
+  - {fileID: 11400000, guid: 927e74c0b9d91204b8835f20bbf10473, type: 2}
+  - {fileID: 11400000, guid: da1af0b3e0ac3c94fa0e0ed4a8630fa2, type: 2}
+  - {fileID: 11400000, guid: 40291dc411ff0fd44a672729e8253cbf, type: 2}

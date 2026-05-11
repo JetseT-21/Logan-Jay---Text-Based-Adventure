@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: theGoldenStaffOverview
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: theGoldenStaffOverview
+  SpeakerName: Narrator
+  DialogueText: You enter the Golden Staff General Store. Inside is a humble style,
+    with tables and shelves decorated with potions, equipment, and other supplies
+    essential to any adventurer. Prices are listed next to each item.
+  Choices:
+  - ChoiceText: '[Talk to the shopkeeper.]'
+    NextNodeId: shopkeeper_01_intro
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Return to the village.]'
+    NextNodeId: villageOverview
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []

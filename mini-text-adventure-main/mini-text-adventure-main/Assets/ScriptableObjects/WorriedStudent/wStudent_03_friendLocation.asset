@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: wStudent_03_friendLocation
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: wStudent_03_friendLocation
+  SpeakerName: Worried Student
+  DialogueText: '"I sent him to the village just south of here. He should be somewhere
+    there. I''ll teach you how to use my favorite spell if you find him, please!
+    Make sure he''s okay..."'
+  Choices:
+  - ChoiceText: '[Leave.]'
+    NextNodeId: mageAcademyOverview
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []

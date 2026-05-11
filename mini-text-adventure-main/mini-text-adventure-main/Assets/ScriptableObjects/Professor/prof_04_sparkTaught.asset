@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: prof_04_sparkTaught
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: prof_04_sparkTaught
+  SpeakerName: Professor
+  DialogueText: '"Of course. I wouldn''t be a professor here if Spark was ALL I could
+    teach you! However, if you want more lessons, you''ll need to enroll here. Even
+    my generosity has its limits, hoho!"'
+  Choices:
+  - ChoiceText: '[Leave.]'
+    NextNodeId: mageAcademyOverview
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
