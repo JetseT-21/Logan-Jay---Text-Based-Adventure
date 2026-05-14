@@ -43,13 +43,11 @@ MonoBehaviour:
     NextNodeId: theGoldenStaffOverview
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags:
-    - foundCFStudent
+    ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Head south to the mage academy.]'
     NextNodeId: mageAcademyOverview
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags:
-    - foundCFStudent
+    ForbiddenFlags: []
     GrantFlags: []

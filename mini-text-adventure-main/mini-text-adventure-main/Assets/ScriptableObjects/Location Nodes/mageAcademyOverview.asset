@@ -31,7 +31,7 @@ MonoBehaviour:
     - hasIceShot
     GrantFlags: []
   - ChoiceText: '[Approach the supplier]'
-    NextNodeId: supp_01_intro
+    NextNodeId: supplier_01_intro
     ReloadScene: 0
     RequiredFlags:
     - quest02_Accepted
@@ -42,6 +42,5 @@ MonoBehaviour:
     NextNodeId: villageOverview
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags:
-    - hasShipment
+    ForbiddenFlags: []
     GrantFlags: []
