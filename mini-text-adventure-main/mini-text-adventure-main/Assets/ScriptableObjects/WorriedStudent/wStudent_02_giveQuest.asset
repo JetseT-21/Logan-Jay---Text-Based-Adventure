@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: wStudent_02_giveQuest
   SpeakerName: Worried Student
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: d3037f11718579d408f947c503456926, type: 3}
   DialogueText: '"Oh! I sent my friend to gather reagents for a project we''re doing,
     but he should''ve come back a long time ago... Could you please find him for
     me and bring him here? He''s wearing a student''s uniform like mine."'

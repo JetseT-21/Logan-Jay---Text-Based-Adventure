@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_08_endingA
   SpeakerName: 'Ending A: Bang!'
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: 69db653b1f999eb44866dccb33e341e1, type: 3}
   DialogueText: You hold your hand in front of you, palm towards the sky. An explosion
     bursts out from your palm and smoke and sparks fly into the air. It seems the
     boy enjoyed your routine!

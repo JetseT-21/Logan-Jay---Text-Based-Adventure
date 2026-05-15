@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: wStudent_03_friendLocation
   SpeakerName: Worried Student
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: d3037f11718579d408f947c503456926, type: 3}
   DialogueText: '"I sent him to the village just south of here. He should be somewhere
     there. I''ll teach you how to use my favorite spell if you find him, please!
     Make sure he''s okay..."'

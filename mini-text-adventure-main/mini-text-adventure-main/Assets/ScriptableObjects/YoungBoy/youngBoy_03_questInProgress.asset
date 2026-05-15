@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_03_questInProgress
   SpeakerName: Young Boy
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: 69db653b1f999eb44866dccb33e341e1, type: 3}
   DialogueText: '"There you are, mister! Did you get those spells?"'
   Choices:
   - ChoiceText: I'm still looking, just give me a bit more time.

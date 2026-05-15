@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: supplier_03_leave
   SpeakerName: Narrator
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: dedceb9d1fb610a4cbef886d85ecc63f, type: 3}
   DialogueText: The supplier walks off, visibly relieved to have that package off
     his hands. Head to the village and drop this off at the general store!
   Choices:

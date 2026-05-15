@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_09_endingB
   SpeakerName: 'Ending B: Target Practice '
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: 69db653b1f999eb44866dccb33e341e1, type: 3}
   DialogueText: You turn to a tree with your hand held outward. Cold air surges down
     your arm and comes out in the form of three icicles. You splay your fingers further
     and the icicles go flying into the tree, each one landing in a perfect vertical

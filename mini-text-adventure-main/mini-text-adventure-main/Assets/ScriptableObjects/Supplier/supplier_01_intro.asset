@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: supplier_01_intro
   SpeakerName: Supplier
-  SpeakerPortrait: {fileID: 0}
+  SpeakerPortrait: {fileID: 21300000, guid: dedceb9d1fb610a4cbef886d85ecc63f, type: 3}
   DialogueText: '"I''ve got an order here for ''The Golden Staff'', but I''m not
     sure who or what that could be. Am I in the right place...?"'
   Choices:
