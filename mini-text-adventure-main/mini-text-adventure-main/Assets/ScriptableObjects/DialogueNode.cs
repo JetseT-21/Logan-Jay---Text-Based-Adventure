@@ -8,11 +8,12 @@ public class DialogueNode : ScriptableObject
     [Header("Identity")] 
     public string NodeId;  // speaker_01_descriptor
 
+	[TextArea(2, 5)] 
     [Header("Dialogue")] 
     public string SpeakerName;
 	public Sprite SpeakerPortrait;
     public string DialogueText;
-	 [TextArea(2, 5)] 
+	
 
     [Header("Choices")] 
     public List<DialogueChoice> Choices = new();

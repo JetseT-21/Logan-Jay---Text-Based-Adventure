@@ -13,7 +13,8 @@ public class DialogueManager : MonoBehaviour
     public delegate void DialogueUpdated(string speakerName, string dialogueText, Sprite portrait, List<DialogueChoice> choices);
     public event DialogueUpdated OnDialogueUpdated;
     
-    private DialogueNode _currentDialogueNode;
+    public DialogueNode _currentDialogueNode;
+	public Player Player;
 
     private void Start()
     {
@@ -78,6 +79,7 @@ public class DialogueManager : MonoBehaviour
     public void GoToNode(string nodeId)
     {
         _currentDialogueNode = Database.GetNode(nodeId);
+		Player.PlayerNode = _currentDialogueNode;
 
         if (_currentDialogueNode == null)
         {
