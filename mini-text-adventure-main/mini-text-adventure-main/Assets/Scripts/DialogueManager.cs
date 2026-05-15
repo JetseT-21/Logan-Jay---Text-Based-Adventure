@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class DialogueManager : MonoBehaviour
     public FlagManager FlagManager;
     public string StartNodeId;
 
-    public delegate void DialogueUpdated(string speakerName, string dialogueText, List<DialogueChoice> choices);
+    public delegate void DialogueUpdated(string speakerName, string dialogueText, Sprite portrait, List<DialogueChoice> choices);
     public event DialogueUpdated OnDialogueUpdated;
     
     private DialogueNode _currentDialogueNode;
@@ -80,13 +81,13 @@ public class DialogueManager : MonoBehaviour
 
         if (_currentDialogueNode == null)
         {
-            OnDialogueUpdated?.Invoke("", "[Dialogue Ended]", null);
+            OnDialogueUpdated?.Invoke("", "[Dialogue Ended]", null, null);
             return;
         }
         
         var filtered = FilterChoices(_currentDialogueNode.Choices);
         {
-            OnDialogueUpdated?.Invoke(_currentDialogueNode.SpeakerName, _currentDialogueNode.DialogueText, filtered);
+            OnDialogueUpdated?.Invoke(_currentDialogueNode.SpeakerName, _currentDialogueNode.DialogueText, _currentDialogueNode.SpeakerPortrait, filtered);
         }
     }
 }

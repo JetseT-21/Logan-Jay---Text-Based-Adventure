@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: youngBoy_05_spellSelect
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: youngBoy_05_spellSelect
+  SpeakerName: Narrator
+  SpeakerPortrait: {fileID: 21300000, guid: 69db653b1f999eb44866dccb33e341e1, type: 3}
+  DialogueText: How many spells will you show the boy?
+  Choices:
+  - ChoiceText: '[One spell.]'
+    NextNodeId: youngBoy_06_oneSpell
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Two spells.]'
+    NextNodeId: youngBoy_07_twoSpells
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[All three spells.]'
+    NextNodeId: youngBoy_14_trueEnding
+    ReloadScene: 0
+    RequiredFlags:
+    - hasSpark
+    - hasIceShot
+    - hasGoldRush
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Try to fake a spell.]'
+    NextNodeId: youngBoy_15_badEnding
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: I forgot something. I'll be right back!
+    NextNodeId: youngBoy_04_questIncomplete
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []
