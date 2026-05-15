@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_13_endingF
   SpeakerName: 'Ending F: Small Flying Targets'
+  SpeakerPortrait: {fileID: 0}
   DialogueText: You conjure a gold coin between each of your fingers with a flash
     of light, before tossing them up in the air, between you and a tree. Before they
     hit the ground, you swing your arms forward as icicles impale the coins and stick

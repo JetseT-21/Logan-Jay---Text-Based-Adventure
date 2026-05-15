@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: cfStudent_01_intro
   SpeakerName: Carefree Student
+  SpeakerPortrait: {fileID: 21300000, guid: 9c7e5f6785602744b9982db1e43acd2c, type: 3}
   DialogueText: '"Y''know, running errands is a great excuse to go out and see the
     world! Beats being holed up in the academy for sure."'
   Choices:

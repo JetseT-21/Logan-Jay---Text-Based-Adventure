@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_14_trueEnding
   SpeakerName: 'True Ending: A Proper Magic Show'
+  SpeakerPortrait: {fileID: 0}
   DialogueText: You clasp your hands together with a golden light seeping through
     your fingers, before thrusting them upward and outward, sending the coins flying.
     You then cross your arms back up, with icicles piercing through each of the coins.

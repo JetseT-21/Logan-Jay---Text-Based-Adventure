@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_15_badEnding
   SpeakerName: 'Bad Ending: Crushed Dreams'
+  SpeakerPortrait: {fileID: 0}
   DialogueText: You wave your hands around the air accompanied by whooshing sound
     effects, ending with your hands spreading apart as you make an explosion sound.
     Try as you did to fake a spell, the boy sees through your ruse and is visibly

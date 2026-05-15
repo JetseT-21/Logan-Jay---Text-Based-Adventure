@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_02_questAccepted
   SpeakerName: Young Boy
+  SpeakerPortrait: {fileID: 0}
   DialogueText: '"Okay!"'
   Choices:
   - ChoiceText: '[Leave.]'

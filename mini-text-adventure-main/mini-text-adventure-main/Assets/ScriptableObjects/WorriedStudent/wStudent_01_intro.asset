@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: wStudent_01_intro
   SpeakerName: Worried Student
+  SpeakerPortrait: {fileID: 0}
   DialogueText: '"Where could he be...? It''s been three hours, it should only take
     one!"'
   Choices:

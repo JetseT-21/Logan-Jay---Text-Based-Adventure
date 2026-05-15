@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: prof_04_sparkTaught
   SpeakerName: Professor
+  SpeakerPortrait: {fileID: 21300000, guid: d88f324fe22435d4cb271d56997e90ab, type: 3}
   DialogueText: '"Of course. I wouldn''t be a professor here if Spark was ALL I could
     teach you! However, if you want more lessons, you''ll need to enroll here. Even
     my generosity has its limits, hoho!"'

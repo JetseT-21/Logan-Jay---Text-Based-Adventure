@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic; 
+using UnityEngine.UI;
 
 [CreateAssetMenu(menuName = "Dialogue/DialogueNode")]
 public class DialogueNode : ScriptableObject
@@ -9,8 +10,9 @@ public class DialogueNode : ScriptableObject
 
     [Header("Dialogue")] 
     public string SpeakerName;
-    [TextArea(2, 5)] 
+	public Sprite SpeakerPortrait;
     public string DialogueText;
+	 [TextArea(2, 5)] 
 
     [Header("Choices")] 
     public List<DialogueChoice> Choices = new();

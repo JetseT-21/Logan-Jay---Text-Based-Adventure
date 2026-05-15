@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_07_twoSpells
   SpeakerName: Narrator
+  SpeakerPortrait: {fileID: 0}
   DialogueText: Which spells will you cast?
   Choices:
   - ChoiceText: '[Spark and Ice Shot.]'

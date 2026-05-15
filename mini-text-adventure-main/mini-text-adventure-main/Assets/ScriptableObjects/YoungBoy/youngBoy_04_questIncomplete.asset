@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_04_questIncomplete
   SpeakerName: Young Boy
+  SpeakerPortrait: {fileID: 0}
   DialogueText: '"Okay... But hurry up! I wanna see a magic trick!!!"'
   Choices:
   - ChoiceText: '[Leave.]'

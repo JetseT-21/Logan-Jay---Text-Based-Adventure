@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: cfStudent_02_OutHere
   SpeakerName: Carefree Student
+  SpeakerPortrait: {fileID: 21300000, guid: 9c7e5f6785602744b9982db1e43acd2c, type: 3}
   DialogueText: '"Sure is! I don''t think my friend will mind if I''m gone for a
     while."'
   Choices:

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_01_intro
   SpeakerName: Young Boy
+  SpeakerPortrait: {fileID: 0}
   DialogueText: '"Hey there, mister! Do you know any magic?"'
   Choices:
   - ChoiceText: Of course. Wait here while I get some cool spells to show you.

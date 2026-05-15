@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: shopkeeper_02_giveShipmentQuest
   SpeakerName: Shopkeeper
+  SpeakerPortrait: {fileID: 21300000, guid: f6756a4832f23a446a9a17a90ec469fc, type: 3}
   DialogueText: '"As a matter of fact, I have a job that needs doing! See, this month''s
     wares shipped to the wrong place, and the company refuses to correct themselves!
     If ya pick up that shipment for me and bring it here, I''ll teach ya a cool spell

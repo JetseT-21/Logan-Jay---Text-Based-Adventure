@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: wStudent_06_questReward
   SpeakerName: Worried Student
+  SpeakerPortrait: {fileID: 0}
   DialogueText: '"(sigh) At least you actually got the reagents. Thanks a lot for
     finding him for me. Here''s a note with instructions on my favorite spell, Ice
     Shot, for your trouble. Now we need to get going so we can finish that project.

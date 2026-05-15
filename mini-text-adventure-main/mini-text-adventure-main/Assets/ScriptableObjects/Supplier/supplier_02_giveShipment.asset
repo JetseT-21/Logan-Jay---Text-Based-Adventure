@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: supplier_02_giveShipment
   SpeakerName: Supplier
+  SpeakerPortrait: {fileID: 0}
   DialogueText: '"Oh, really? Great! Thanks for taking this off my hands. Take care,
     now!"'
   Choices:

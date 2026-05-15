@@ -8,6 +8,7 @@ public class DialogueUI : MonoBehaviour
 {
     public DialogueManager DM;
     public TextMeshProUGUI SpeakerTextDisplay;
+	public Image CharacterPortrait;
     public TextMeshProUGUI DialogueTextDisplay;
     public List<Button> Buttons;
     public List<TextMeshProUGUI> ButtonLabels;
@@ -22,10 +23,11 @@ public class DialogueUI : MonoBehaviour
         DM.OnDialogueUpdated -= UpdateUI;
     }
     
-    private void UpdateUI(string speaker, string dialogue, List<DialogueChoice> choices)
+    private void UpdateUI(string speaker, string dialogue, Sprite portrait, List<DialogueChoice> choices)
     {
         SpeakerTextDisplay.text = speaker;
         DialogueTextDisplay.text = dialogue;
+		CharacterPortrait.sprite = portrait;
 
         for (int i = 0; i < Buttons.Count; i++)
         {

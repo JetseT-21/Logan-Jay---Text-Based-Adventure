@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: wStudent_05_friendReply
   SpeakerName: Carefree Student
+  SpeakerPortrait: {fileID: 0}
   DialogueText: '"I, uh... I got side-tracked. Sorry. But hey, at least I have the
     reagents we need"'
   Choices:

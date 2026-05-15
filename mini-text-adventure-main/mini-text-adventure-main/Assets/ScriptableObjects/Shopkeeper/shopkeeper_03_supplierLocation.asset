@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: shopkeeper_03_supplierLocation
   SpeakerName: Shopkeeper
+  SpeakerPortrait: {fileID: 21300000, guid: f6756a4832f23a446a9a17a90ec469fc, type: 3}
   DialogueText: '"You''ll find ''em at the mage academy. They''ve got this bright
     orange uniform, real hard to miss. Safe travels!"'
   Choices:

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: youngBoy_12_endingE
   SpeakerName: 'Ending E: Dancing Coins'
+  SpeakerPortrait: {fileID: 0}
   DialogueText: You conjure some gold coins and lay them flat on the ground. With
     a snap of your fingers, they begin disappearing in small explosions in a popcorn-like
     rhythm. It seems the boy really liked your routine!
